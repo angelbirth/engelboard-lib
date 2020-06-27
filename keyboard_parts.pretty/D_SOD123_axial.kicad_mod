@@ -1,4 +1,4 @@
-(module D_SOD123_axial (layer F.Cu) (tedit 561B6A12)
+(module D_SOD123_axial (layer F.Cu) (tedit 5EB25176)
   (attr smd)
   (fp_text reference D** (at 0 1.925) (layer F.SilkS)
     (effects (font (size 0.8 0.8) (thickness 0.15)))
@@ -23,4 +23,14 @@
     (solder_mask_margin -999))
   (pad 2 smd rect (at 2.7 0) (size 2.5 0.5) (layers F.Cu)
     (solder_mask_margin -999))
+  (model ${KISYS3DMOD}/Diode_SMD.3dshapes/D_SOD-123.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model ${KISYS3DMOD}/Diode_THT.3dshapes/D_DO-35_SOD27_P7.62mm_Horizontal.step
+    (offset (xyz -3.8 0 -1.3))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 180 0 0))
+  )
 )
